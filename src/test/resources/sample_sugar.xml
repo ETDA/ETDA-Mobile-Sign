@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sxr:SugarExportRequest xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:16"
+ xmlns:ccts="urn:un:unece:uncefact:documentation:standard:CoreComponentsTechnicalSpecification:2"
+ xmlns:cct="https://cmr.estandard.center/schemas/TradeServices/Common/LocalCoreComplexType_1p1"
+ xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+ xmlns:sxr="https://cmr.estandard.center/schemas/TradeServices/Form/SugarExportRequest_1p1"
+ xmlns:xad="http://uri.etsi.org/01903/v1.3.2#"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="https://cmr.estandard.center/schemas/TradeServices/Form/SugarExportRequest_1p1 file:/D:/Schema-XML_7_Messages_v01-00.02/fixSchemaLocation/Form_1p1/SugarExportRequest_1p1.xsd">
+    <sxr:DocumentHeader>
+        <cct:ID>0065802816</cct:ID>
+        <cct:Name>คำร้องขอรับหนังสืออนุญาต</cct:Name>
+        <cct:IssueDate>2016-11-01</cct:IssueDate>
+        <sxr:FormID oid="2.16.764.1.3.1000.2.3.1.1"/>
+        <sxr:SchemaID oid="2.16.764.1.3.1000.2.3.1.2"/>
+    </sxr:DocumentHeader>
+    <sxr:DocumentDetail>
+        <sxr:Exporter>
+            <cct:Name>บริษัท แปซิฟิก ชูการ์ คอร์เปอเรชั่น จำกัด</cct:Name>
+            <cct:ID>ID006</cct:ID>
+            <cct:Address>               
+                <cct:LineOne>2 ถนนสุขุมวิท แขวงคลองเตย</cct:LineOne>
+                <cct:LineTwo>เขตคลองเตย กรุงเทพฯ 10110</cct:LineTwo>
+                <cct:CountryName>Thailand</cct:CountryName>
+            </cct:Address>
+            <cct:TaxReference>0105535169420</cct:TaxReference>
+            <cct:Contact>
+                <cct:Name>ธิดารัตน์  หลำสวัสดิ์</cct:Name>
+                <cct:Responsibility>ผู้รับมอบอำนาจ</cct:Responsibility>
+                <cct:Address>
+                    <cct:LineOne>33/475 ม.4 ถนนลาดพร้าว </cct:LineOne>
+                    <cct:LineTwo>เแขวงลาดพร้าว เขตลาดพร้าว กรุงเทพฯ </cct:LineTwo>
+                    <cct:CountryName>Thailand</cct:CountryName>
+                </cct:Address>
+            </cct:Contact>
+        </sxr:Exporter>
+        <sxr:Buyer>
+            <cct:Name>INTERBEV PHILIPPINES INC</cct:Name>
+            <cct:ID>ID001</cct:ID>
+            <cct:Address>
+                <cct:LineOne>KM. 43 NATIONAL HIGHWAY, BRGY. SALA,</cct:LineOne>
+                <cct:LineTwo>CABUYAO, LAGUNA</cct:LineTwo>                
+                <cct:CountryName>PHILIPPINES</cct:CountryName>
+            </cct:Address>
+            <cct:PurchaseCountryCode>PH</cct:PurchaseCountryCode>
+        </sxr:Buyer>
+        <sxr:NotifyParty>
+            <cct:Name>INTERBEV PHILIPPINES INC</cct:Name>
+            <cct:ID>ID002</cct:ID>
+            <cct:Address>
+                <cct:LineOne>PHILIPPINES</cct:LineOne>
+                <cct:CountryName>PHILIPPINES</cct:CountryName>
+            </cct:Address>
+            <cct:DestinationCountryCode>PH</cct:DestinationCountryCode>
+        </sxr:NotifyParty>
+        <sxr:TradeDelivery>
+            <cct:ReceivedQuantity>475.00000</cct:ReceivedQuantity>
+            <cct:ProductSeason>2558/2559</cct:ProductSeason>
+            <cct:SugarType>น้ำเชื่อม MIS</cct:SugarType>
+            <cct:Classification>17029091000</cct:Classification>
+            <cct:PackagingType>เทกอง</cct:PackagingType>
+            <cct:QuotaType>ค.</cct:QuotaType>
+            <cct:RemainingQuantity>20000.000000</cct:RemainingQuantity>
+            <cct:RequestedQuantity>475.000000</cct:RequestedQuantity>
+            <cct:PackageQuantity>4750.00000</cct:PackageQuantity>
+            <cct:Remark>Comment</cct:Remark>
+        </sxr:TradeDelivery>
+        <sxr:TradeAgreement>
+            <cct:ContractNo>01816-MPIC</cct:ContractNo>
+            <cct:ContractQuantity>20000.000000</cct:ContractQuantity>
+            <cct:ExitDate>2016-01-19</cct:ExitDate>
+            <cct:TransportMeans>
+                <cct:Type>เรือ</cct:Type>
+                <cct:VehicleName>FSL BUSAN</cct:VehicleName>
+                <cct:LoadPort>กรุงเทพฯ/แหลมฉบัง/ศรีราชา/เกาะสีชัง</cct:LoadPort>
+            </cct:TransportMeans>
+            <cct:Payment>
+                <cct:CurrencyType>เหรียญสหรัฐ</cct:CurrencyType>
+                <cct:Method>C.A.D</cct:Method>
+                <cct:ExchangeRate>35.8611</cct:ExchangeRate>                
+            </cct:Payment>
+            <cct:UnitPrice>368.000000</cct:UnitPrice>
+            <cct:FOBvalue>6268520.28</cct:FOBvalue>
+            <cct:PackingSize>เทกอง</cct:PackingSize>
+            <cct:Description>น้ำเชื่อม (M I S) ที่ผลิตขึ้นในฤดูการผลิตปี 2558/2559 (โควตา ค.) และเป็นสินค้าที่มีกำเนิดในประเทศไทยส่งมอบแบบเทกอง จำนวน 475.00 เมตริกตัน (หรือเทียบเท่ากระสอบบรรจุ 1000 กิโลกรัม จำนวน 475.00 กระสอบ)
+                (ราคาเมตริกตันละ 13,196.88 บาท)</cct:Description>
+        </sxr:TradeAgreement>
+        <sxr:SugarProductSummary>
+            <cct:ProductDate>2015-12-21</cct:ProductDate>
+            <cct:RemainingDate>2016-01-08</cct:RemainingDate>
+            <cct:SumWhiteSugarQuantity>5574.400000</cct:SumWhiteSugarQuantity>
+            <cct:SumRefinedSugarQuantity>21342.000000</cct:SumRefinedSugarQuantity>
+            <cct:SumRawSugarQuantity>32395.850000</cct:SumRawSugarQuantity>
+            <cct:SumSugarProductRemaining>3453229.400000</cct:SumSugarProductRemaining>
+            <cct:SumSugarProductDeliver>47500</cct:SumSugarProductDeliver>
+        </sxr:SugarProductSummary>
+        <sxr:SugarProduct>
+            <cct:Name>น้ำตาลทราย</cct:Name>
+            <cct:Manufacturer>
+                <cct:ManufacturerName>มิตรผล</cct:ManufacturerName>
+            </cct:Manufacturer>
+            <cct:WhiteSugarQuantity>5574.4000</cct:WhiteSugarQuantity>
+            <cct:RefinedSugarQuantity>21342.000000</cct:RefinedSugarQuantity>
+            <cct:RawSugarQuantity>32395.850000</cct:RawSugarQuantity>
+            <cct:SugarProductRemaining>3453229.400000</cct:SugarProductRemaining>
+            <cct:SugarProductDeliver>4750.000000</cct:SugarProductDeliver>
+        </sxr:SugarProduct>         
+        <sxr:InvoiceInfo>
+            <cct:InvoiceNumber>PSCC15125416</cct:InvoiceNumber>
+            <cct:InvoiceDate>2016-01-19</cct:InvoiceDate>
+            <cct:InvoiceItem>1</cct:InvoiceItem>
+            <cct:Description>-</cct:Description>
+        </sxr:InvoiceInfo>
+        <sxr:TariffInfo>
+            <cct:Classification>17029091</cct:Classification>
+            <cct:StatisticCode>000</cct:StatisticCode>
+        </sxr:TariffInfo>
+        <sxr:AdditionalDocument>
+            <sxr:Contract>
+                <cct:Name>สำเนาภาพถ่ายสัญญาซื้อขายน้ำตาลทราย</cct:Name>
+                <cct:ID>01816-MPIC</cct:ID>
+                <cct:IssueDate>2015-07-13</cct:IssueDate>
+            </sxr:Contract>
+            <sxr:TELEX>
+                <cct:Name>สำเนาภาพถ่าย TELEX ผู้ซื้อ</cct:Name>
+                <cct:IssueDate>2015-12-28</cct:IssueDate>
+            </sxr:TELEX>
+            <sxr:Other>เงื่อนไขการชำระเงินแบบ C.A.D</sxr:Other>
+        </sxr:AdditionalDocument>
+    </sxr:DocumentDetail>
+</sxr:SugarExportRequest>
